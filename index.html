@@ -17,8 +17,7 @@
     <link rel="stylesheet" href="vendor/lightbox2/css/lightbox.min.css">
     <!-- theme stylesheet-->
     <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
-    <!-- Custom stylesheet - for your changes-->
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="vendor/colorbox/example1/colorbox.css" />
     <!-- Favicon-->
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
   </head>
@@ -137,7 +136,7 @@
                 <div class="box"><a href="img/espresso.jpg" data-lightbox="image-1" data-title="Some footer information" class="has-border"><img src="img/espresso.jpg" alt="image" class="img-fluid"></a></div>
               </div>
               <div class="col-md-4">
-                <div class="box"><a href="img/flowerr.jpg" data-lightbox="image-1" data-title="Some footer information" class="has-border"><img src="img/flowerr.jpg" alt="image" class="img-fluid"></a></div>
+                <div class="box"><a class='iframe' href="./amass.html"><img src="img/flowerr.jpg" alt="image" class="img-fluid"></a></div>
               </div>
               <div class="col-md-4">
                 <div class="box"><a href="img/edit2.jpg" data-lightbox="image-1" data-title="Some footer information" class="has-border"><img src="img/edit2.jpg" alt="image" class="img-fluid"></a></div>
@@ -207,7 +206,13 @@
     <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
     <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
     <script src="vendor/lightbox2/js/lightbox.min.js"></script>
+    <script src="vendor/colorbox/jquery.colorbox.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;amp;sensor=false"> </script>
     <script src="js/front.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+      });
+    </script>
   </body>
 </html>
