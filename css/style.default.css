@@ -55,9 +55,13 @@ section {
 }
 
 .heading {
-  margin-bottom: 40px;
-  font-family: sans-serif;
+  margin-bottom: 60px;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
+}
+
+p {
+   font-family: "Montserrat", sans-serif;
 }
 
 .heading:after {
@@ -155,6 +159,21 @@ INTRO SECTION
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 
+
+p.socialb a.button {
+  background-color: #ffb6c1;
+  outline-style: none;
+  border-radius: 12px;
+  outline-width: 25px;
+  color: #fff;
+  padding: 2px 28px;
+  text-align: center;
+  display: block;
+  width: 25%;
+  font font-size: 16px,
+  margin:auto;
+}
+
 .intro h1 {
   font-size: 3.75rem;
 }
@@ -206,7 +225,7 @@ SERVICES SECTION
 
 .skills .icon {
   font-size: 50px;
-  color: #262626;
+  color: #ffb6c1;
 }
 
 /*
@@ -232,11 +251,11 @@ CONTACT SECTION
 }
 
 p.social {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 p.social a {
-  margin: 0 10px 0 0;
+  margin: 0 15px 0 0;
   color: #fff;
   display: inline-block;
   width: 38px;
@@ -275,6 +294,11 @@ p.social a.email {
   background-color: #666;
 }
 
+.text-page {
+  margin-top: -84px;
+  margin-bottom: -84px;
+}
+
 /*
 *
 =====================
@@ -287,8 +311,8 @@ footer {
 }
 
 .copyright {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   color: #eee;
   font-style: italic;
 }
@@ -1110,7 +1134,17 @@ h6,
 .h6 {
   margin-bottom: 0.5rem;
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-weight: bold;
+  line-height: 1.44;
+  color: inherit;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.normal {
+  margin-bottom: 0.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
   line-height: 1.44;
   color: inherit;
   text-transform: uppercase;
