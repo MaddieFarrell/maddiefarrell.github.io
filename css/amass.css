@@ -56,7 +56,7 @@ section {
 
 .heading {
   margin-bottom: 40px;
-  font-family: sans-serif;
+  font-family: "Montserrat" sans-serif;
   font-weight: bold;
 }
 
@@ -1149,6 +1149,12 @@ h6,
   font-size: 1rem;
 }
 
+ul li {
+  color: #21252a;
+  font-family: "Montserrat", sans-serif;
+  }
+
+
 .skills p {
   margin-bottom: 0.5rem;
   font-family: "Montserrat", sans-serif;
@@ -1163,7 +1169,7 @@ h6,
 .lead {
   font-size: 1.6rem;
   font-weight: 300;
-  font-family: "GT Walsheim", sans-serif; 
+  font-family: "Montserrat", sans-serif; 
 }
 
 
