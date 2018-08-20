@@ -193,6 +193,38 @@ p.socialb a.button {
   z-index: 10;
 }
 
+.resume-button {
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 24px 2px;
+  cursor: pointer;
+  background-color: white; 
+  color: #ffb6c1; 
+  border: 2px solid #ffb6c1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.resume-button {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.resume-button:hover {
+    background-color: #ffb6c1;
+    color: white;
+}
+
+.faceshot-img {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
 @media (max-width: 767.98px) {
   .content {
     position: relative;
@@ -206,15 +238,10 @@ p.socialb a.button {
 /*
 *
 =====================
-SERVICES SECTION
+SKILLS SECTION
 =====================
 *
 */
-.skills {
-  margin-top: -84px;
-  margin-bottom: -84px;
-}
-
 .skills .box {
   margin-top: 20px;
 }
@@ -226,17 +253,6 @@ SERVICES SECTION
 .skills .icon {
   font-size: 50px;
   color: #ffb6c1;
-}
-
-/*
-*
-=====================
-MAP SECTION
-=====================
-*
-*/
-#map {
-  height: 600px;
 }
 
 /*
@@ -296,11 +312,6 @@ p.social a.email {
 
 p.social a.resume {
   background: #3d3d3d;
-}
-
-.text-page {
-  margin-top: -84px;
-  margin-bottom: -84px;
 }
 
 /*
