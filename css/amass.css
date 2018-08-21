@@ -203,13 +203,13 @@ SERVICES SECTION
 }
 
 .skills .row {
-  text-align: center;
+  text-align: left;
 }
 
 .skills .icon {
   font-size: 50px;
   color: #262626;
-}
+} 
 
 /*
 *
@@ -1154,6 +1154,11 @@ ul li {
   font-family: "Montserrat", sans-serif;
   }
 
+  ol li {
+  color: #21252a;
+  font-family: "Montserrat", sans-serif;
+  }
+
 
 .skills p {
   margin-bottom: 0.5rem;
@@ -1164,7 +1169,6 @@ ul li {
   text-transform: uppercase;
   letter-spacing: 0.2em;
 }
-
 
 .lead {
   font-size: 1.6rem;
