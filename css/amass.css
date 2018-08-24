@@ -1166,7 +1166,7 @@ ul li {
   font-weight: 250;
   line-height: 1.44;
   color: inherit;
-  text-transform: uppercase;
+  text-transform: /*uppercase;*/
   letter-spacing: 0.2em;
 }
 
