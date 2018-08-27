@@ -64,9 +64,9 @@ section {
   content: " ";
   display: block;
   width: 100px;
-  height: 1px;
+  height: 2px;
   margin: 20px 0 20px;
-  background: #555;
+  background: #ffb6c1;
 }
 
 .section-inverse {
@@ -174,6 +174,13 @@ INTRO SECTION
   transition: all 0.3s;
   z-index: 10;
 }
+
+.Planning {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
 
 @media (max-width: 767.98px) {
   .content {
@@ -1159,6 +1166,12 @@ ul li {
   font-family: "Montserrat", sans-serif;
   }
 
+  .gallery p {
+    font-family: "Montserrat", sans-serif;
+  }
+.text-page p {
+  font-family: "Montserrat", sans-serif;
+}
 
 .skills p {
   margin-bottom: 0.5rem;
