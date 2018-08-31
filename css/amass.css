@@ -8,7 +8,7 @@ Bootstrapious Boilerplate Template
 
 
 
- 
+
 
 ========================================= 
 ========================================= */
@@ -57,7 +57,7 @@ section {
   top: 0;
   background: #000;
   z-index: 2;
-  opacity: 0.6;
+  opacity: 0.0;
 }
 
 .heading {
@@ -186,6 +186,33 @@ INTRO SECTION
   align-items:center;
   justify-content:center;
 }
+
+.resume-button {
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 24px 2px;
+  cursor: pointer;
+  background-color: white; 
+  color: #ffb6c1; 
+  border: 2px solid #ffb6c1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.resume-button {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.resume-button:hover {
+    background-color: #ffb6c1;
+    color: white;
+}
+
 
 
 @media (max-width: 767.98px) {
