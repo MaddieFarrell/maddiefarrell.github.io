@@ -72,7 +72,7 @@ section {
   width: 100px;
   height: 2px;
   margin: 20px 0 20px;
-  background: #ffb6c1;
+  background: #CC5491;
 }
 
 .section-inverse {
@@ -90,6 +90,12 @@ section {
 
 .box {
   margin-bottom: 30px;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
 }
 
 /*
@@ -196,8 +202,8 @@ INTRO SECTION
   margin: 24px 2px;
   cursor: pointer;
   background-color: white; 
-  color: #ffb6c1; 
-  border: 2px solid #ffb6c1;
+  color: #CC5491; 
+  border: 2px solid #CC5491;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   border-radius: 4px;
@@ -209,7 +215,7 @@ INTRO SECTION
 }
 
 .resume-button:hover {
-    background-color: #ffb6c1;
+    background-color: #CC5491;
     color: white;
 }
 
