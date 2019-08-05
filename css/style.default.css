@@ -90,6 +90,14 @@ p {
   margin-bottom: 30px;
 }
 
+.lorroland {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 140%;
+  padding-right: 100px;
+
+}
 
 
 /*
@@ -413,6 +421,11 @@ p.socialb a.button {
     color: white;
 }
 
+#button-container {
+    margin-top: 100px;
+    text-align: center;
+  }
+
 .faceshot-img {
   display:flex;
   align-items:center;
@@ -427,7 +440,10 @@ p.socialb a.button {
     -webkit-transform: translate(0, 0);
     transform: translate(0, 0);
   }
-  .additionnal-button {
+  .button-containter {
+    margin-top: 100px;
+    text-align: center;
+  }
   }
 }
 
