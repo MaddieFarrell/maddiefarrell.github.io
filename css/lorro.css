@@ -105,6 +105,20 @@ section {
   width: 50%;
 }
 
+.storePics {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.storePics2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
 .dashboard {
   display: block;
   margin-left: auto;
@@ -137,7 +151,7 @@ section {
 }
 
 .phonenumber {
-  width:40%;
+  width:45%;
   display: block;
   margin-left: auto;
   margin-right: auto;
