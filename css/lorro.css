@@ -133,13 +133,20 @@ section {
   width: 80%;
 }
 
+.signage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 .lorropicture {  
   object-fit: scale-down;  
-  width: 650px;  
-  height: 325px;
-  margin-top: 200px;
-  padding-right: 100px;
+  width: 750px;  
+  height: 375px;
+  margin-top: 100px;
+  padding-right: 300px;
+  display: block;
 }
 
 .moodboard {
@@ -155,7 +162,7 @@ section {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 30px;
+
 }
 
 .verification {
