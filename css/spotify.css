@@ -350,6 +350,21 @@ MAP SECTION
   height: 600px;
 }
 
+.discover {
+  width:25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.colorSwatch {
+  width:45%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 /*
 *
 =====================
