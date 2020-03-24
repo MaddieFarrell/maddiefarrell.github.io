@@ -290,6 +290,32 @@ p.socialb a.button {
     color: white;
 }
 
+.resume-button-6 {
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 24px 2px;
+  cursor: pointer;
+  background-color: white; 
+  color: #649af8; 
+  border: 2px solid #649af8;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.resume-button-6 {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.resume-button-6:hover {
+    background-color: #649af8;
+    color: white;
+}
+
 .resume-button-5 {
   padding: 16px 32px;
   text-align: center;
@@ -494,6 +520,11 @@ SKILLS SECTION
   color: #ffb6c1;
 }
 
+#skills {
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
 /*
 *
 =====================
@@ -563,6 +594,11 @@ hr {
   border-width: 4px;
   border-color: #ffb6c1;
   border-radius: 25px;
+}
+
+#contact {
+  padding-bottom: 80px;
+  padding-top: 80px;
 }
 
 /*
