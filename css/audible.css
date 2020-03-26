@@ -115,6 +115,14 @@ section {
   margin-left: 100px;
 }
 
+.proto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+}
+
 
 .arrow {
   position: fixed;
@@ -232,7 +240,6 @@ INTRO SECTION
   background-position: center center;
   overflow: hidden;
   background-attachment: fixed;
-  background-color: #f7be39; 
 
 }
 
@@ -243,6 +250,7 @@ INTRO SECTION
 
 .intro h1 {
   font-size: 3.75rem;
+  color: #ff9900;
 }
 
 .intro p {

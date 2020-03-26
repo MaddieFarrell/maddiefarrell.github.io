@@ -94,7 +94,7 @@ section {
 
 .arrow {
   position: fixed;
-  bottom: -60px;
+  bottom: -20px;
   left: 50%;
   margin-left:-20px;
   width: 40px;
@@ -208,28 +208,54 @@ INTRO SECTION
   position: relative;
   width: 100%;
   height: 100%;
-  color: #fff;
-  background-color: #111;
-  min-height: 600px;
+  min-height: 800px;
   padding: 0;
   background-size: cover;
-  background-position: center center;
   overflow: hidden;
   background-attachment: fixed;
-  background-color: #401C52;
+  background-size: contain;
+  background-size: 100%; 
+
 }
 
 .intro h1, .intro h2, .intro h3, .intro p {
-  color: #fff;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 
 .intro h1 {
   font-size: 3.75rem;
+  color: #9A3F9F;
+  text-align: left;
+  padding-left: 90px;
 }
 
 .intro p {
   font-size: 2.35rem;
+}
+
+.home {
+  width: 95%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto; 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .content {
