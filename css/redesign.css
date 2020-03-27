@@ -235,6 +235,37 @@ section {
     color: white;
 }
 
+.resume-button-2 {
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 24px 2px;
+  cursor: pointer;
+  background-color: white; 
+  color: #589BF9; 
+  border: 2px solid #589BF9;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  width: 60%;
+}
+
+.resume-button-2 {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.resume-button-2:hover {
+    background-color: #589BF9;
+    color: white;
+   
+}
+
 .lorroland {
   display: block;
   margin-left: auto;
