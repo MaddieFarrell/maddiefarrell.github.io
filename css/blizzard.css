@@ -72,7 +72,7 @@ section {
   width: 100px;
   height: 2px;
   margin: 20px 0 20px;
-  background: #ea4e3a;
+  background: #1A66B0;
 }
 
 .section-inverse {
@@ -106,7 +106,7 @@ section {
   margin-left: auto;
   margin-right: auto;
   width: 120%;
-  margin-top: 50px;
+  margin-top: 150px;
   margin-left: 10px;
 }
 
@@ -244,8 +244,8 @@ section {
   margin: 24px 2px;
   cursor: pointer;
   background-color: white; 
-  color: #ea4e3a; 
-  border: 2px solid #ea4e3a;
+  color: #589BF9; 
+  border: 2px solid #589BF9;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   border-radius: 4px;
@@ -261,7 +261,7 @@ section {
 }
 
 .resume-button-2:hover {
-    background-color: #ea4e3a;
+    background-color: #589BF9;
     color: white;
    
 }
@@ -351,11 +351,11 @@ nav.navbar a.nav-link {
 }
 
 nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover, nav.navbar a.nav-link:focus {
-  color: #ea4e3a;
+  color: #1A66B0;
 }
 
 nav.navbar a.nav-link.active {
-  border-bottom: 1px solid #ea4e3a;
+  border-bottom: 1px solid #1A66B0;
 }
 
 nav.navbar .navbar-brand {
