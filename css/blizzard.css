@@ -439,7 +439,7 @@ INTRO SECTION
 .content {
   position: relative;
   width: 100%;
-  top: 50%;
+  top: 75%;
   text-align: center;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
